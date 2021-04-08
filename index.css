@@ -1,0 +1,193 @@
+.animatedtext{
+  font-family: arial;
+  position: fixed;
+  animation: textit 2s infinite;
+  border-radius: 50px;
+  background-color: black;
+}
+@keyframes textit{
+  0% {color: #FF6B8B;}
+  10%{color: #FB71FF;}
+  20%{color: #CB71FF;}
+  30%{color: #71C7FF;}
+  40%{color: #71FFAB;}
+  50%{color: #ADFF71;}
+  60%{color: #71FFAB;}
+  70%{color: #71C7FF;}
+  80%{color: #CB71FF;}
+  90%{color: #FB71FF;}
+  100%{color: #FF6B8B;}
+}
+
+.getit{
+  background-image: linear-gradient(to right , #FFE7E1, white);
+  border-radius: 50px;
+  border-left: 3px solid #FFF3F0;
+}
+.opt{
+  float: left;
+  padding: 2%;
+  font-family: arial;
+  color: black;
+}
+.opt:hover{
+  background-color: #D3D3D3;
+  color: black;
+}
+.me{
+   padding: 2%;
+   font-family: arial;
+   transition: 1s;
+   color: black;
+}
+.me:hover{
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+
+}
+#creat{
+  border-radius: 30%;
+  position: fixed;
+}
+.plat{
+  margin: 2%;
+}
+.adv{
+  box-shadow: 2px 5px 8px black;
+  width: 60%;
+  border-radius: 50px;
+  background-color: #FFE7E1;
+  transition: 1s;
+}
+
+.adv:hover{
+  width: 62%;
+}
+
+/* BRief wala page */
+.up::after {
+  font-size: 180%;
+  color: #37AE3E;
+  content: counter(count);
+  animation: counter 1s linear;
+  counter-reset: count 4230986;
+}
+
+@keyframes counter {
+  0% {counter-increment: count 200000;}
+  5% {counter-increment: count 210000;}
+  10% {counter-increment: count 225000;}
+  15% {counter-increment: count 235000;}
+  20% {counter-increment: count 245000;}
+  25% {counter-increment: count 250000;}
+  30% {counter-increment: count 265000;}
+  35% {counter-increment: count 275000;}
+  40% {counter-increment: count 280000;}
+  50% {counter-increment: count 300000;}
+  55% {counter-increment: count 310000;}
+  60% {counter-increment: count 325000;}
+  70% {counter-increment: count 335000;}
+  75%{counter-increment: count 350000;}
+  80% {counter-increment: count 365000;}
+  85% {counter-increment: count 375000;}
+  95% {counter-increment: count 385000;}
+  100% {counter-increment: count 400000;}
+}
+
+.upe::after {
+  font-size: 180%;
+  color: #37AE3E;
+  content: counter(count);
+  animation: counter 1s linear;
+  counter-reset: count 149521;
+}
+
+@keyframes counter {
+  0% {counter-increment: count 20000;}
+  5% {counter-increment: count 21000;}
+  10% {counter-increment: count 22500;}
+  15% {counter-increment: count 23500;}
+  20% {counter-increment: count 24500;}
+  25% {counter-increment: count 25000;}
+  30% {counter-increment: count 26500;}
+  35% {counter-increment: count 27500;}
+  40% {counter-increment: count 28000;}
+  50% {counter-increment: count 30000;}
+  55% {counter-increment: count 31000;}
+  60% {counter-increment: count 32500;}
+  70% {counter-increment: count 33500;}
+  75% {counter-increment: count 35000;}
+  80% {counter-increment: count 36500;}
+  85% {counter-increment: count 37500;}
+  95% {counter-increment: count 38500;}
+  100% {counter-increment: count 40000;}
+}
+
+.upl::after {
+  font-size: 180%;
+  color: #37AE3E;
+  content: counter(count);
+  animation: counter 1s linear;
+  counter-reset: count 16593;
+}
+
+@keyframes counter {
+  0% {counter-increment: count 2000;}
+  5% {counter-increment: count 2100;}
+  10% {counter-increment: count 2250;}
+  15% {counter-increment: count 2350;}
+  20% {counter-increment: count 2450;}
+  25% {counter-increment: count 2500;}
+  30% {counter-increment: count 2650;}
+  35% {counter-increment: count 2750;}
+  40% {counter-increment: count 2800;}
+  50% {counter-increment: count 3000;}
+  55% {counter-increment: count 3100;}
+  60% {counter-increment: count 3250;}
+  70% {counter-increment: count 3350;}
+  75% {counter-increment: count 3500;}
+  80% {counter-increment: count 3650;}
+  85% {counter-increment: count 3750;}
+  95% {counter-increment: count 3850;}
+  100% {counter-increment: count 4000;}
+}
+
+.upt::after {
+  font-size: 180%;
+  color: #37AE3E;
+  content: counter(count);
+  animation: counter 1s linear;
+  counter-reset: count  384;
+}
+
+@keyframes counter {
+  0% {counter-increment: count 100;}
+  5% {counter-increment: count 120;}
+  10% {counter-increment: count 140;}
+  15% {counter-increment: count 150;}
+  20% {counter-increment: count 160;}
+  25% {counter-increment: count 170;}
+  30% {counter-increment: count 180;}
+  35% {counter-increment: count 190;}
+  40% {counter-increment: count 200;}
+  50% {counter-increment: count 230;}
+  55% {counter-increment: count 231;}
+  60% {counter-increment: count 232;}
+  70% {counter-increment: count 233;}
+  75% {counter-increment: count 235;}
+  80% {counter-increment: count 236;}
+  85% {counter-increment: count 270;}
+  95% {counter-increment: count 238;}
+  100% {counter-increment: count 240;}
+}
+.cr{
+  animation: rot 0.5s;
+}
+
+/* brief wala yha tak */
+
+@keyframes rot{
+  from{transform: rotateY(0deg);}
+  to{transform: rotateY(360deg);}
+}
