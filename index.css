@@ -78,7 +78,7 @@
   color: #37AE3E;
   content: counter(count);
   animation: counter 1s linear;
-  counter-reset: count 4230986;
+  counter-reset: count 4538514;
 }
 
 @keyframes counter {
@@ -107,7 +107,7 @@
   color: #37AE3E;
   content: counter(count);
   animation: counter 1s linear;
-  counter-reset: count 149521;
+  counter-reset: count 162174;
 }
 
 @keyframes counter {
@@ -136,7 +136,7 @@
   color: #37AE3E;
   content: counter(count);
   animation: counter 1s linear;
-  counter-reset: count 16593;
+  counter-reset: count 17296;
 }
 
 @keyframes counter {
